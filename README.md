@@ -1,2 +1,2 @@
 # Final_Project
-Repository for my final project edits.
+This final project serializes medical data for a patient/patients.
