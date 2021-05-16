@@ -1,36 +1,36 @@
-import java.awt.event.ActionListener; // Waits for the user to do something (e.g., press enter)
+import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.BorderLayout;
 import java.awt.Container;
-import java.awt.Desktop; // Imported Desktop
+import java.awt.Desktop;
 import java.awt.FlowLayout;
-import java.awt.GridLayout; // Imported GridLayout
+import java.awt.GridLayout;
 import java.awt.event.KeyListener;
 import java.awt.event.KeyEvent;
 
 import javax.swing.JButton;
-import javax.swing.JFileChooser; // Imported JFileChooser
+import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
-import javax.swing.JTextField; // Lets you type text
-import javax.swing.JPasswordField; // Covers text in asterisks
+import javax.swing.JTextField;
+import javax.swing.JPasswordField;
 import javax.swing.JOptionPane;
 
 import java.util.Random;
 import java.util.Scanner;
 
-import java.io.File; // Imported File reader
-import java.io.IOException; // Imported IOException
-import java.io.FileWriter; // Imported FileWriter
+import java.io.File;
+import java.io.IOException;
+import java.io.FileWriter;
 
 public class SerializeThis extends JFrame implements ActionListener {
 
     public SerializeThis() {
         super("SerializeThis Project");
-        setLayout(new FlowLayout()); // Gives us a default layout
+        setLayout(new FlowLayout());
 
         Container contentPane = getContentPane();
         contentPane.setLayout(new BorderLayout());

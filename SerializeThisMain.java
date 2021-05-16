@@ -48,8 +48,5 @@ class SerializeThisMain {
 
         // patients.add (new Patient("Janeise", 22, 66.0, 145.1, "dark brown", "blonde and black"));
 
-        //patientReader -- have it deserialize from the same location
-        //Maybe implement toostring in all classes
-
     }
 }
